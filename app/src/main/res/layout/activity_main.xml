@@ -26,4 +26,33 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="LOGIN:"
+        android:id="@+id/Login"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email"
+        android:layout_above="@+id/email" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELP!"
+        android:id="@+id/oklogin"
+        android:layout_below="@+id/Password"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="THE HELP NETWORK"
+        android:id="@+id/helpnetwork"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:textStyle="bold" />
+
 </RelativeLayout>
